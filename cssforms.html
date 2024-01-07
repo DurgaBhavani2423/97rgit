@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            *{
+                background-color:burlywood;
+            }
+            form,label{
+                
+                background-repeat: no-repeat;
+                background-size: 2000px 2000px;
+            }
+            label{
+               
+                font-size: medium; 
+                font-weight: bold;  
+            }
+            .cls{
+                background-color:rgb(219, 35, 96);
+                font-size: small;
+                font-weight: bold;
+            }
+            #bc{
+                background-color: wheat;
+            }
+            fieldset{
+                text-align: center;
+            }
+        </style>
+            
+        
+    </head>
+    <body>
+        
+       <fieldset>
+           <h1 style=" background-color: rgb(50, 131, 77);">Registration form</h1>
+        <form action="./logincss.html">
+            <label for="fname">FirstName</label>
+            <input class="cls" type="text" name="fname" id="fname" placeholder="Enter FirstName"><br><br>
+            <label for="lname">LastName</label>
+            <input class="cls" type="text" name="lname" id="lname" placeholder="Enter LastName"><br><br>
+            <label for="mail">Email</label>
+            <input class="cls" type="mail" name="mail" id="mail" placeholder="Enter Email"><br><br>
+            <label for="phone">Mobile:</label>
+            <input class="cls" type="tel" name="phone" id="phone" placeholder="Enter Mobile Number" pattern="[0-9]{10}"><br><br>
+            <label for="Gender">Gender</label>
+            <select class="cls" name="Gender" id="Gender">
+            <option value="select">select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="other">Other</option>
+            </select><br><br>
+            <label for="birthday">Birthday:</label>
+            <input class="cls" type="date" id="birthday" name="birthda"><br><br>
+            <label for ="Language">Language:</label>
+            <input type="checkbox" id="Language1" name="Language1" value="Telugu">
+            <label for="Language1">Telugu</label>
+            <input type="checkbox" id="Language2" name="Language12" value="Hindi">
+            <label for="Language2"> Hindi</label>
+            <input type="checkbox" id="Language3" name="Language13" value="English">
+            <label for="Language3">English</label><br><br>
+            <label for="pswd">Password</label>
+            <input class="cls" type="password" name="pswd" id="pswd" placeholder="Enter password"><br><br>
+            <label for="pswd">Confirm Password</label>
+            <input class="cls" type="password" name="pswd" id="pswd" placeholder="Re-enter password" ><br><br>
+            
+            <input id="bc" type="reset" value="Reset">
+            
+            <input id="bc"type="submit" value="submit">
+            
+
+        </form></fieldset>
+    
+    </body>
+</html>
