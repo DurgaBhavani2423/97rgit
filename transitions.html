@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 10px;
+        }
+        
+.div1{
+    border: 1px solid black;
+    width:300px;
+    height:300px;
+    animation-name: bg;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+}
+        .div2{
+            border: 1px solid black;
+            width:300px;
+            height:300px;
+            animation-name: bg1;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+
+            
+        }
+        @keyframes bg{
+            from{
+                background-color: darkcyan;
+            }
+            to{
+                background-color: darkkhaki;
+                background: linear-gradient(orange,yellow,green);
+            }
+        }
+        @keyframes bg1{
+            from{
+                 
+                  background-image: url(./rose.jpg);            
+
+            }
+            to{background-image: url(./flower.jpg);
+
+            }
+        }
+       .img1{
+        display: inline-block;
+        transition-property: all;
+       transition-duration: 6s;
+       box-shadow: 50%;
+       margin:20px;
+       margin-top: 50px;
+      
+
+       } 
+       .img1:hover{
+        padding: 10px;
+        background:radial-gradient(green,orange,pink);
+        height:50px;
+        width:50px;
+        border-radius: 50px;
+        transform: rotate(60deg);
+        
+      
+
+       
+
+       }
+       .img2{
+        padding: 10px;
+        background-color: darkslategrey;
+        transition-property: all;
+        transition-duration: 6s;
+        margin: 20px;
+       } 
+
+.radio:checked ~ .img2{
+    border-radius: 20px;
+    background:linear-gradient(yellow,orange,green);
+    height:50px;
+    width:50px;
+    transform: skew(40deg);
+
+}
+.outer{border: 1px solid;
+        border-radius: 50px;
+        height:100px;
+        width:100px;
+      
+        margin: 100px;
+        border-top-color: aqua ;
+        border-bottom-color: crimson;
+        animation-name: spin;
+        animation-duration: 45;
+
+       }
+.inner{border: 1px solid;
+        border-radius: 50px;
+        height:80px;
+        width:80px;
+        margin: 8px;
+        border-bottom-color: aqua ;
+        border-top-color: crimson;
+        animation-name: spin;
+        animation-duration: 2s;
+      
+        
+
+
+}
+
+
+</style>
+</head>
+<body><div class="container">
+    <div class="div1">
+        <img class= "img1"src="https://i.pinimg.com/originals/48/2b/cc/482bcc5b3f5065b2e1dfc1adfde92f8b.jpg" height=200px width="200px">
+        
+    </div>
+    <div class="div2">
+    <input class="radio"type="radio"><br>
+        <img class="img2" src="http://2.bp.blogspot.com/-1NYpY9Wj0rw/TjqWlAh36vI/AAAAAAAAKoY/RcOC3csqpgM/s1600/hero_ram_latest_photos_stills_001.jpg" height=200px width="200px">
+   </div>
+   </div>
+  
+   
+   
+</body>
+</html>

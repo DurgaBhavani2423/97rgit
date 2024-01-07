@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>gallery</title>
+   <style>
+      .maindiv {
+         border: 1px solid;
+         height: 900px;
+         width: 800px;
+         display: flex;
+         background-color:rgb(50, 230, 230);
+      }
+
+      .div1 {
+         border: 10px solid rgb(0, 255, 0);
+         height: 150px;
+         width: 150px;
+         position: relative;
+         left: 100px;
+         top: 100px;
+      }
+
+      .div2 {
+         border: 10px solid palevioletred;
+         height: 150px;
+         width: 150px;
+         position: relative;
+         left: 130px;
+         top: 100px;
+      }
+
+      .div3 {
+         border: 10px solid;
+         height: 150px;
+         width: 150px;
+         position: relative;
+         left: 150px;
+         top: 100px;
+      }
+
+      .div4 {
+         border: 10px solid palevioletred;
+         height: 150px;
+         width: 150px;
+         position: relative;
+         right: 410px;
+         top: 280px;
+      }
+
+      .div5 {
+         border: 10px solid rgb(206, 9, 9);
+         height: 150px;
+         width: 150px;
+         position: relative;
+         top: 280px;
+         right: 380px;
+      }
+
+      .div6 {
+         border: 2px solid;
+         height: 150px;
+         width: 150px;
+         position: relative;
+         top: 280px;
+         right: 360px;
+         border: 10px solid rgb(0, 255, 0);
+      }
+
+      .d1:hover,
+      .d3:hover,
+      .d6:hover {
+         height: 200px;
+         width: 200px;
+         border: 10px solid rgb(0, 255, 0);
+      }
+
+      .d2:active,
+      .d4:hover {
+         border: 10px solid orange;
+      }
+
+      .d5:active {
+         height: 250px;
+         width: 250px;
+         border: 10px solid rgb(0, 183, 255);
+      }
+      p{
+         border: 5px solid rgba(134, 81, 11, 0.507);
+         height:100px;
+         width:600px;
+       color:darkgreen;
+         position: relative;
+         right:400px;
+         top:50px;
+      }
+      p:hover{
+         font-weight: bold;
+         color:rgb(206, 9, 9);
+         background-color: blanchedalmond;
+         border: 5px solid gold;
+      }
+     @media screen and(min-width:425px) and (max-width:765px){
+      .maindiv{
+         background-color: indianred;
+      }
+     }
+   </style>
+</head>
+
+<body>
+   <div class="maindiv">
+      <div class="div1">
+         <img class="d1" src="https://tse3.mm.bing.net/th?id=OIP.UZXGtl1ValKVHDtWDpO65wHaEo&pid=Api&P=0&h=180"
+            height="150" width="150" />
+      </div>
+      <div class="div2">
+         <img class="d2" src="https://tse3.mm.bing.net/th?id=OIP.eYHbHpBekRCWFs17oHq7TQHaEo&pid=Api&P=0&h=180"
+            height="150" width="150" />
+      </div>
+      <div class="div3">
+         <img class="d3" src="https://tse2.mm.bing.net/th?id=OIP.ZJOUSHF99nSg1V6JG_R9lAHaFj&pid=Api&P=0&h=180"
+            height="150" width="150" />
+      </div>
+      <div class="div4">
+         <img class="d4" src="https://tse1.mm.bing.net/th?id=OIP.P8ysvBF9znZWZNEl0ijXRQHaEK&pid=Api&P=0&h=180"
+            height="150" width="150" />
+      </div>
+      <div class="div5">
+         <img class="d5" src="https://tse2.mm.bing.net/th?id=OIP.WvW3fgmWuilBnwHz3UIwhgHaE7&pid=Api&P=0&h=180"
+            height="150" width="150" />
+      </div>
+      <div class="div6">
+         <img class="d6" src="https://tse1.mm.bing.net/th?id=OIP.x2PNh_x1q0uVxNzTcAzk1wHaEo&pid=Api&P=0&h=180"
+            height="150" width="150" />
+            <p style="font-size: larger; "><i>
+               The Dog is a domestic animal. It is most of the often-used animal as a
+               pet. People prefer to have a dog as a pet rather than any other animal.
+               The dog serves its master selflessly. All that it wants in return is
+               love and care of the owner.</i>
+            </p>
+      </div>      
+     
+   </div>
+</body>
+
+</html>
