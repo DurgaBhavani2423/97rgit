@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexboxes</title>
+    <style>
+        .maindiv {
+            border: 10px solid black;
+            display: flex;
+            height: 800px;
+            width: 900px;
+            flex-wrap: wrap;
+            gap:20px;
+            
+        }
+        .maindiv:hover{
+            background-color:darkcyan;
+        }
+      
+
+        .div1,
+        .div2,.div3,.div4{
+            border: 2px solid black;
+            height: 300px;
+            width: 300px;
+            margin: 50px;
+            display: flex;
+            background-color: hotpink;
+           
+            
+           
+        }
+       
+
+        
+        .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+            border:2px solid black;
+            height:200px;
+            width:100px;
+           margin:30px;
+           margin-top: 40px;
+           background-color: aquamarine;
+        }
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10{
+    border:1px solid;
+    height:80px;
+    width:50px;
+    margin:10px;
+    display: flex;
+    gap:1px;
+    background-color: rgb(59, 47, 79);
+}
+.smalldiv1,.smalldiv2{
+    border:1px solid ;
+    height:50px;
+    width:20px;
+    margin-top: 10px;
+    background-color: gold;
+
+
+    }
+.small1,.small2{
+    border:1px solid;
+    height:50px;
+    width:20px;
+    background-color: lawngreen;
+    margin-top:8px;
+}
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="div1">1
+          
+            <div class="d1"></div>
+            <div class="d2"></div>
+        </div>
+
+        <div class="div2">2
+            <div class="d3">
+                <div class="c1"></div>
+                <div class="c2"></div>
+            </div>
+            <div class="d4">
+                <div class="c3"></div>
+                <div class="c4"></div>
+            </div>
+          
+           
+        </div>
+       <div class="div3">3
+        <div class="d5">
+
+            <div class="c5">
+                <div class="smalldiv1"></div>
+                <div class="smalldiv2"></div>
+                
+               
+            </div>
+            <div class="c6">
+                <div class="smalldiv1"></div>
+                <div class="smalldiv2"></div>
+            </div>
+           
+        </div>
+        <div class="d6">
+            <div class="c7">
+                <div class="smalldiv1"></div>
+                <div class="smalldiv2"></div> </div>
+            <div class="c8">
+                <div class="smalldiv1"></div>
+                <div class="smalldiv2"></div>
+            </div>
+        </div>
+
+       </div>
+       <div class="div4">4
+        <div class="d7">
+            <div class="c9">
+                <div class="small1"></div>
+                <div class="small2"></div>
+                <div class="small1"></div>
+                <div class="small2"></div>
+                
+
+
+            </div>
+            <div class="c10">
+                <div class="small1"></div>
+                <div class="small2"></div>
+                <div class="small1"></div>
+                <div class="small2"></div>
+            </div>
+        </div>
+        <div class="d8">
+            <div class="c1">
+                <div class="small1"></div>
+                <div class="small2"></div>
+                <div class="small1"></div>
+                <div class="small2"></div>
+            </div>
+            <div class="c1">
+                <div class="small1"></div>
+                <div class="small2"></div>
+                <div class="small1"></div>
+                <div class="small2"></div>
+            </div>
+        </div>
+       </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
